@@ -1,0 +1,118 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #001529;
+    /* height: 20%; */
+    /* width: 100%; */ 
+}
+.convin-logo{
+    width: 15%;
+    margin: 5px 45px;
+}
+body{
+    background-color: rgb(237, 241, 243);
+}
+.main{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.main h4{
+    font-weight: bold;
+    font-size: 30px;
+    color: #313b47;
+    letter-spacing: 1px;
+}
+.main p{
+    color: #919cb7;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 7%;
+}
+.btn1{
+    padding: 10px;
+    background-color: #1a62f2;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    outline-style: hidden;
+    cursor: pointer;
+}
+.btn2{
+    padding: 10px;
+    color: #1a62f2;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+    color: #1a62f2;
+
+}
+.content{
+    display: flex;
+}
+.image{
+    padding-top: 3%;
+    padding-left: 9%;
+}
+i{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+@media (max-width: 500px) {
+    .img-1{
+        display: none;
+    }
+    .main h4{
+        font-weight: bold;
+        font-size: 30px;
+        color: #313b47;
+        /* letter-spacing: 1px; */
+    }
+    .main{
+        padding-top: 30%;
+        /* padding-left: 5%; */
+    }
+    .main p{
+        color: #919cb7;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 15%;
+    }
+    .btn1{
+        padding: 20px;
+        background-color: #1a62f2;
+        color: white;
+        border-radius: 10px;
+        font-size: 10px;
+        outline-style: hidden;
+        cursor: pointer;
+    }
+    .btn2{
+        padding: 20px;
+        color: #1a62f2;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-left: 3%;
+        cursor: pointer;
+    }
+    .convin-logo{
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+}
